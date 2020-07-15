@@ -8,17 +8,13 @@ data much more quickly without consuming too many computational resources.
 ### DBSCANpack.jar
 
 There are three packages and one main file (EvaluationSample.java) in the [DBSCANpack.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/DBSCANpack.jar).
-
 In DBSCANpack package, there are source codes for DBSCAN, DISC, Incremental DBSCAN, and Extra-N all. 
-
 In Rtree.BasicRtree package, there are source codes for basic Rtree
-
 In Rtree.EpochBasedRtree package, there are source codes for  Rtree with the Epoch_Based_Probe method .
 
 ### Datasets 
 Sample subset of the public datasets (GeoLife, COVID19, IRIS) are located in the [Datasets](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/Datasets)
  folder. 
-
 We do not upload the DTG dataset due to the privacy policy. 
 
 ## Running DBSCANpack.jar

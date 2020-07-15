@@ -1,3 +1,8 @@
+# DISC: Density-Based Incremental Clustering by Striding over Streaming Data
+we present a new incremental density-based clustering algorithm called DISC, which is optimized under the sliding window model.
+DISC is capable of producing exactly the same clustering results as existing methods such as Incremental DBSCAN for streaming
+data much more quickly without consuming too many computational resources.
+
 ## Explanation 
 
 `DBSCANpack.jar`

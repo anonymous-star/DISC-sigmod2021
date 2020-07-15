@@ -3,7 +3,7 @@ We present a new incremental density-based clustering algorithm called DISC, whi
 DISC is capable of producing exactly the same clustering results as existing methods such as Incremental DBSCAN for streaming
 data much more quickly without consuming too many computational resources.
 
-## Explanation 
+## Description
 
 ### DBSCANpack.jar
 

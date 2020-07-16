@@ -23,7 +23,7 @@ java -jar EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Win
 `Datasets` = 0 | 1 | 2    (0: GeoLife, 1: COVID19, 2: IRIS)   
 `Algorithm` = DBSCAN | EXTRAN | DISC | INCDBSCAN | ALL    
 `MinPts` = Integer value for MinPts   
-`Eps` = Double value for epsilon    
+`Eps` = Double value for Epsilon    
 `Window` = Integer value for the window size   
 `Stride` = Integer value for the stride size    
 `X` = Integer value for sequential runs

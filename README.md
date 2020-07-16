@@ -4,9 +4,9 @@ DISC is capable of producing exactly the same clustering results as existing met
 data much more quickly without consuming too many computational resources.
 
 ## Datasets 
-Samples of the public datasets (GeoLife, COVID19, IRIS) are in the [Datasets](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/Datasets)
+Samples for the public datasets (GeoLife, COVID19, IRIS) are in the [Datasets](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/Datasets)
  folder. 
-For the privay issue, We do not upload the DTG dataset. 
+For the privay issue, we do not upload the DTG dataset. 
 
 ## RUN ALGORITHMS (DISC, DBSCAN, Incremental DBSCAN, Extra-N)
 We provide the runnable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) to simply test the performance of each algorithm shown in the paper. *It is compiled under javaSE-1.8.    

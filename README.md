@@ -3,12 +3,12 @@ We present a new incremental density-based clustering algorithm called DISC, whi
 DISC is capable of producing exactly the same clustering results as existing methods such as Incremental DBSCAN for streaming
 data much more quickly without consuming too many computational resources.
 
-### Datasets 
+## Datasets 
 Sample subset of the public datasets (GeoLife, COVID19, IRIS) are located in the [Datasets](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/Datasets)
  folder. 
 For the privay issue, We do not upload the DTG dataset. 
 
-## TEST 
+## RUN ALGORITHMS
 We provide executable jar (`EvaluationSample.jar`) which is a sample program to simply test the algorithms shown in the paper. *Source codes are compiled under javaSE-1.8. 
 
 

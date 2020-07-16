@@ -13,6 +13,9 @@ We provide sources (`src` folder) of all clustering algorithms used in the paper
 
 ### Running EvaluationSample.jar
 
+```
+java EvaluationSample.jar [Path_Dataset_folder] [Dataset] [Algorithm] [MinPts] [Epsilon] [WindowSize] [StrideSize] [#Iteration]
+```
 ### src
 There are three packages and one main file (EvaluationSample.java) in the [DBSCANpack.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/DBSCANpack.jar).
 In DBSCANpack package, there are source codes for DBSCAN, DISC, Incremental DBSCAN, and Extra-N all. 

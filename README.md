@@ -27,7 +27,7 @@ java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] 
 `X` = Integer value for sequential runs
 
 ```
-ex) java EvaluationSample.jar ~/home/Datasets 0 DISC 20 0.005 15000 1500 
+ex) java EvaluationSample.jar ~/home/Datasets 0 DISC 20 0.005 15000 1500 5
 ```
 
 ### src

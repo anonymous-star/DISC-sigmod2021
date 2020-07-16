@@ -9,7 +9,7 @@ Sample subset of the public datasets (GeoLife, COVID19, IRIS) are located in the
 For the privay issue, We do not upload the DTG dataset. 
 
 ## RUN ALGORITHMS
-We provide executable jar (`EvaluationSample.jar`) which is a sample program to simply test the performance of algorithm shown in the paper. *Source codes are compiled under javaSE-1.8. 
+We provide executable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) which is a sample program to simply test the performance of algorithm shown in the paper. *Source codes are compiled under javaSE-1.8. 
 
 
 ### Running EvaluationSample.jar

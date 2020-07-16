@@ -14,7 +14,14 @@ We provide sources (`src` folder) of all clustering algorithms used in the paper
 ### Running EvaluationSample.jar
 
 ```
-java EvaluationSample.jar [Path_Dataset_folder] [Dataset] [Algorithm] [MinPts] [Epsilon] [WindowSize] [StrideSize] [#Iteration]
+java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [|Window|] [|Stride|] 
+Path = Path to dataset folder  ex) ~/home/Datasets
+Datasets = 0 | 1 | 2    ## 0: GeoLife, 1: COVID19, 2: IRIS
+Algorithm = DBSCAN | EXTRAN | DISC | INCDBSCAN | ALL 
+MinPts = Integer value for MinPts
+Eps = Double value for epsilon
+|Window| = Integer value for window size
+|Stride| = Integer value for stride size 
 ```
 ### src
 There are three packages and one main file (EvaluationSample.java) in the [DBSCANpack.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/DBSCANpack.jar).

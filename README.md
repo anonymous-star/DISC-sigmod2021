@@ -14,8 +14,7 @@ We provide the runnable jar([EvaluationSample.jar](https://github.com/anonymous-
 
 
 ### Running EvaluationSample.jar
-EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride.
-EvaluationSample.jar returns the average elapsed time of `X` sequential runs. 
+EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride and returns the average elapsed time of `X` sequential runs. 
 
 ```
 java -jar EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] [Stride] [X]

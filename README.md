@@ -9,7 +9,7 @@ Sample subset of the public datasets (GeoLife, COVID19, IRIS) are located in the
 For the privay issue, We do not upload the DTG dataset. 
 
 ## Description
-We provide sources (`src` folder) of all clustering algorithms used in the paper and the executable jar (`EvaluationSample.jar`) which is a sample program to simply test the algorithms. 
+We provide  executable jar (`EvaluationSample.jar`) which is a sample program to simply test the algorithms shown in the paper. 
 
 ### Running EvaluationSample.jar
 EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride.

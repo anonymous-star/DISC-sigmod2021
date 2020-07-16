@@ -30,18 +30,6 @@ java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] 
 ex) java EvaluationSample.jar ~/home/Datasets 0 DISC 20 0.005 15000 1500 5
 ```
 
-### src
-There are three packages and one main file (EvaluationSample.java) in the [DBSCANpack.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/DBSCANpack.jar).
-In DBSCANpack package, there are source codes for DBSCAN, DISC, Incremental DBSCAN, and Extra-N all. 
-In Rtree.BasicRtree package, there are source codes for basic Rtree
-In Rtree.EpochBasedRtree package, there are source codes for  Rtree with the Epoch_Based_Probe method .
-
-
-#### How to compile
-
-
-
-
 
 
 

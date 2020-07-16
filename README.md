@@ -9,13 +9,11 @@ Samples of the public datasets (GeoLife, COVID19, IRIS) are in the [Datasets](ht
 For the privay issue, We do not upload the DTG dataset. 
 
 ## RUN ALGORITHMS (DISC, DBSCAN, Incremental DBSCAN, Extra-N)
-We provide the runnable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) to simply test the performance of each algorithm shown in the paper. *It is compiled under javaSE-1.8. 
-
+We provide the runnable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) to simply test the performance of each algorithm shown in the paper. *It is compiled under javaSE-1.8.    
+EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride and returns the average elapsed time of `X` sequential runs. 
 
 
 ### Running EvaluationSample.jar
-EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride and returns the average elapsed time of `X` sequential runs. 
-
 ```
 java -jar EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] [Stride] [X]
 ```
@@ -29,13 +27,9 @@ java -jar EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Win
 `X` = Integer value for sequential runs
 
 ```
-ex) java -jar EvaluationSample.jar ~/path/Datasets 0 DISC 20 0.005 15000 1500 5
+ex) java -jar EvaluationSample.jar ~/path/Datasets 1 ALL 5 1.0 15000 150 5
 ```
-
-
-
-
-
+Sample Output
 
 
 

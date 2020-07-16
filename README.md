@@ -17,13 +17,13 @@ It returns the average elapsed time of five runs.
 ```
 java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [|Window|] [|Stride|] 
 ```
-`Path` = Path to dataset folder  ex) ~/home/Datasets
-`Datasets` = 0 | 1 | 2    ## 0: GeoLife, 1: COVID19, 2: IRIS
-`Algorithm` = DBSCAN | EXTRAN | DISC | INCDBSCAN | ALL 
-`MinPts` = Integer value for MinPts
-`Eps` = Double value for epsilon
-`|Window|` = Integer value for window size
-`|Stride|` = Integer value for stride size 
+`Path` = Path to dataset folder  ex) ~/home/Datasets   
+`Datasets` = 0 | 1 | 2    ## 0: GeoLife, 1: COVID19, 2: IRIS   
+`Algorithm` = DBSCAN | EXTRAN | DISC | INCDBSCAN | ALL    
+`MinPts` = Integer value for MinPts   
+`Eps` = Double value for epsilon    
+`|Window|` = Integer value for window size   
+`|Stride|` = Integer value for stride size    
 
 ```
 ex) java EvaluationSample.jar ~/home/Datasets 0 DBSCAN 20 0.005 15000 1500 

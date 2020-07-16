@@ -33,8 +33,7 @@ ex) java -jar EvaluationSample.jar ~/path/Datasets 1 ALL 5 1.0 15000 150 5
 
 >Sample Output
 
-![Sample](https://user-images.githubusercontent.com/68207451/87642616-bab11780-c784-11ea-9bba-fc8292ce8f74.png)
-
+![Sample](https://user-images.githubusercontent.com/68207451/87643027-49259900-c785-11ea-9463-33f8a9a85c3e.png)
 
 
 

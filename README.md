@@ -8,8 +8,10 @@ Sample subset of the public datasets (GeoLife, COVID19, IRIS) are located in the
  folder. 
 For the privay issue, We do not upload the DTG dataset. 
 
-## RUN ALGORITHMS
+## RUN ALGORITHMS (DISC, DBSCAN, Incremental DBSCAN, Extra-N)
 We provide a runnable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) to simply test the performance of each algorithm shown in the paper. *Source codes are compiled under javaSE-1.8. 
+
+
 
 ### Running EvaluationSample.jar
 EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride.

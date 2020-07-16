@@ -23,8 +23,8 @@ java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] 
 `MinPts` = Integer value for MinPts   
 `Eps` = Double value for epsilon    
 `Window` = Integer value for the window size   
-`Stride` = Integer value for the stride size 
-`X` = Integer value 
+`Stride` = Integer value for the stride size    
+`X` = Integer value for sequential runs
 
 ```
 ex) java EvaluationSample.jar ~/home/Datasets 0 DISC 20 0.005 15000 1500 

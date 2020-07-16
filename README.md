@@ -9,7 +9,7 @@ Sample subset of the public datasets (GeoLife, COVID19, IRIS) are located in the
 For the privay issue, We do not upload the DTG dataset. 
 
 ## RUN ALGORITHMS (DISC, DBSCAN, Incremental DBSCAN, Extra-N)
-We provide a runnable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) to simply test the performance of each algorithm shown in the paper. *Source codes are compiled under javaSE-1.8. 
+We provide the runnable jar([EvaluationSample.jar](https://github.com/anonymous-star/DISC-sigmod2021/blob/master/EvaluationSample.jar)) to simply test the performance of each algorithm shown in the paper. *Source codes are compiled under javaSE-1.8. 
 
 
 

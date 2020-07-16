@@ -12,18 +12,19 @@ For the privay issue, We do not upload the DTG dataset.
 We provide sources (`src` folder) of all clustering algorithms used in the paper and the executable jar (`EvaluationSample.jar`) which is a sample program to simply test the algorithms. 
 
 ### Running EvaluationSample.jar
-It measures the elapsed time taken to update clusters when the sliding window advanced by a single stride.
-It returns the average elapsed time of five runs.
+EvaluationSample.jar measures the elapsed time taken to update clusters when the sliding window advanced by a single stride.
+EvaluationSample.jar returns the average elapsed time of `X` sequential runs. 
 ```
-java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [|Window|] [|Stride|] 
+java EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] [Stride] [X]
 ```
-`Path` = Path to dataset folder (ex) ~/home/Datasets)
-`Datasets` = 0 | 1 | 2    (0: GeoLife, 1: COVID19, 2: IRIS)
+`Path` = Path to dataset folder (ex) ~/home/Datasets)   
+`Datasets` = 0 | 1 | 2    (0: GeoLife, 1: COVID19, 2: IRIS)   
 `Algorithm` = DBSCAN | EXTRAN | DISC | INCDBSCAN | ALL    
 `MinPts` = Integer value for MinPts   
 `Eps` = Double value for epsilon    
-`|Window|` = Integer value for window size   
-`|Stride|` = Integer value for stride size    
+`Window` = Integer value for the window size   
+`Stride` = Integer value for the stride size 
+`X` = Integer value 
 
 ```
 ex) java EvaluationSample.jar ~/home/Datasets 0 DISC 20 0.005 15000 1500 

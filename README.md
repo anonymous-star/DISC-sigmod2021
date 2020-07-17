@@ -17,7 +17,7 @@ EvaluationSample.jar measures the elapsed time taken to update clusters when the
 ```
 java -jar EvaluationSample.jar [Path] [Datasets] [Algorithm] [MinPts] [Eps] [Window] [Stride] [X]
 ```
-`Path` = Path to the folder of datasets (ex) ~/home/Datasets)   
+`Path` = Path to the folder of datasets (ex ~/home/Datasets)   
 `Datasets` = 0 | 1 | 2    (0: GeoLife, 1: COVID19, 2: IRIS)   
 `Algorithm` = DBSCAN | EXTRAN | DISC | INCDBSCAN | ALL    
 `MinPts` = Integer value for MinPts   
